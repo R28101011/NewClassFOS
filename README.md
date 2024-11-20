@@ -3,7 +3,7 @@
 ```
 if(!("devtools" %in% rownames(installed.packages()))) install.packages("devtools")
 library(devtools)
-install_github("R28101011/NewcClassFOS")
+install_github("R28101011/NewClassFOS")
 library(FOS)
 ```
 
