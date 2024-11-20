@@ -113,11 +113,10 @@ FOS_ad = function(x, alpha = 0.0027, pn = 0.9){
   ku <- uniroot(fun2,c(0, n+1))$root
   ur = kl/(n+1)
   us = ku/(n+1)
-  pn = Pn_FOS(n)
   LCL = limit(u=ur)
   UCL = limit(u=us)
   limits = cbind(LCL, UCL)
-  return( list(limits=limits, pn=pn) )
+  return(limits)
 }
 
 #' The 3-term FOS method
