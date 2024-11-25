@@ -43,7 +43,7 @@ FOS_3terms(x6, alpha = 0.0027, pn = 0.3)
 
 # Fine-tuning the hyperparameters
 
-In FineTune.R, we provide the 'FineTune()' function for implementing the fine-tune producer. For example, we would like to find the optimal hyperparameters for the normal distribution with a sample size of 370 and the desired nominal coverage of 0.6.
+We provide the `FineTune()' function for implementing the fine-tune producer. For example, we would like to find the optimal hyperparameters for the normal distribution with a sample size of 370 and the desired nominal coverage of 0.6.
 
 ```{r}
 FineTune(n = 370, pn = 0.6, dist="normal")
