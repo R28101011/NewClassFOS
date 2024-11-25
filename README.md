@@ -23,7 +23,7 @@ x4 = prepro(dt_secom$V190)[1:1536]
 x6 = prepro(dt_sonar$V6)[1:200]
 ```
 
-# Calcuate EPC Control Limits
+# Calculate EPC Control Limits
 In this package, we provide the implements of the three methods, Class FOS, adaptive FOS, and 3-term FOS, for calculating EPC control limits.
 The correspoding R functions are `FOS()`, `FOS_ad()` and `FOS_3terms()`. For example, we want to calculate the EPC control limits for variable `x1`.
 
